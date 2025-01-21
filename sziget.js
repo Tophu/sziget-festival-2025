@@ -6,3 +6,8 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
+
+document.querySelector('.hamburger').addEventListener('click', function() {
+    var navLinks = document.querySelector('.nav-links.mobile');
+    navLinks.classList.toggle('show');
+});
