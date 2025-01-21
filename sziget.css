@@ -296,6 +296,29 @@ footer {
 footer.dark-mode {
     background-color: #444;
 }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add space between footer links and social media icons */
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-links a {
+    color: #fff; /* Change footer links to white */
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.social-media {
+    display: flex;
+    gap: 15px;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
