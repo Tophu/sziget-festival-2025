@@ -162,13 +162,11 @@ header.dark-mode {
     align-items: center;
     justify-content: center;
     max-width: 1200px; /* Same width as the container */
-    margin: 0 auto; /* Center the hero section */
-    margin-top: 90px; /* Same margin as the container */
+
 }
 .hero .hero-image {
     width: 100%; /* Scale the image to the full width of the section */
     height: auto;
-    margin-bottom: 20px; /* Add space between the image and the heading */
 }
 .hero h1 {
     font-size: 3rem;
