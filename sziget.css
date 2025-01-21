@@ -198,11 +198,11 @@ header.dark-mode {
 }
 .carousel-card {
     flex: 0 0 auto;
-    width: 200px;
+    width: 300px; /* Increase the width of the carousel cards */
     background-color: #fff;
     color: #000;
     text-align: center;
-    padding: 10px;
+    padding: 20px; /* Increase padding inside the carousel cards */
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -216,6 +216,11 @@ header.dark-mode {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 10px; /* Add space between the image and the headline */
+}
+.carousel-card h3 {
+    font-size: 1.2rem; /* Add headline under the photos */
+    margin: 0 0 10px 0; /* Add margin below the headline */
 }
 
 /* Call to action section styles */
