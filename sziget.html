@@ -13,54 +13,91 @@
     <link rel="stylesheet" href="sziget.css">
 </head>
 <body>
-    <!-- Header with navigation bar -->
+
+ 
+    <!-- Main content container -->
+    <div class="container">
+            <!-- Header with navigation bar -->
     <header>
         <nav class="navbar">
             <div class="logo">
-            <img src="Assets\Images\logo.svg" alt="Sziget Festival Logo">
+                <img src="\Assets\Images\logo.svg" alt="Sziget Festival Logo">
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
             <ul class="nav-links" style="font-size: 14px;">
-                    <li><a href="#lineup">Lineup</a></li>
-                    <li class="dropdown">
-                        <a href="#tickets" class="dropbtn">Tickets &#9662;</a>
-                        <div class="dropdown-content" style="background-color: white; color: #111234;">
-                            <a href="https://szigetfestival.com/en/tickets" style="color: #111234;">Pass Tickets</a>
-                            <a href="https://szigetfestival.com/en/tickets#/accommodation" style="color: #111234;">Camping Tickets</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#discover" class="dropbtn">Discover Sziget &#9662;</a>
-                        <div class="dropdown-content" style="background-color: white; color: #111234;">
-                            <a href="https://szigetfestival.com/en/experience" style="color: #111234;">About</a>
-                            <a href="https://szigetfestival.com/en/exciting-venues-of-sziget" style="color: #111234;">Activities</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#need-to-know" class="dropbtn">Need to Know &#9662;</a>
-                        <div class="dropdown-content" style="background-color: white; color: #111234;">
-                            <a href="https://szigetfestival.com/en/festival-info" style="color: #111234;">FAQ</a>
-                            <a href="https://szigetfestival.com/en/contact" style="color: #111234;">Contact Us</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#travel" class="dropbtn">Travel & Stay &#9662;</a>
-                        <div class="dropdown-content" style="background-color: white; color: #111234;">
-                            <a href="https://szigetfestival.com/en/accommodation/" style="color: #111234;">Accommodation</a>
-                            <a href="https://szigetfestival.com/en/travel/" style="color: #111234;">Travel</a>
-                        </div>
-                    </li>
-                </ul>
+                <li><a href="#lineup">Lineup</a></li>
+                <li class="dropdown">
+                    <a href="#tickets" class="dropbtn">Tickets &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/tickets" style="color: #111234;">Pass Tickets</a>
+                        <a href="https://szigetfestival.com/en/tickets#/accommodation" style="color: #111234;">Camping Tickets</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#discover" class="dropbtn">Discover Sziget &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/experience" style="color: #111234;">About</a>
+                        <a href="https://szigetfestival.com/en/exciting-venues-of-sziget" style="color: #111234;">Activities</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#need-to-know" class="dropbtn">Need to Know &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/festival-info" style="color: #111234;">FAQ</a>
+                        <a href="https://szigetfestival.com/en/contact" style="color: #111234;">Contact Us</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#travel" class="dropbtn">Travel & Stay &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/accommodation/" style="color: #111234;">Accommodation</a>
+                        <a href="https://szigetfestival.com/en/travel/" style="color: #111234;">Travel</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav-links mobile" style="font-size: 14px;">
+                <li><a href="#lineup">Lineup</a></li>
+                <li class="dropdown">
+                    <a href="#tickets" class="dropbtn">Tickets &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/tickets" style="color: #111234;">Pass Tickets</a>
+                        <a href="https://szigetfestival.com/en/tickets#/accommodation" style="color: #111234;">Camping Tickets</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#discover" class="dropbtn">Discover Sziget &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/experience" style="color: #111234;">About</a>
+                        <a href="https://szigetfestival.com/en/exciting-venues-of-sziget" style="color: #111234;">Activities</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#need-to-know" class="dropbtn">Need to Know &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/festival-info" style="color: #111234;">FAQ</a>
+                        <a href="https://szigetfestival.com/en/contact" style="color: #111234;">Contact Us</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#travel" class="dropbtn">Travel & Stay &#9662;</a>
+                    <div class="dropdown-content" style="background-color: white; color: #111234;">
+                        <a href="https://szigetfestival.com/en/accommodation/" style="color: #111234;">Accommodation</a>
+                        <a href="https://szigetfestival.com/en/travel/" style="color: #111234;">Travel</a>
+                    </div>
+                </li>
+            </ul>
             <a href="https://szigetfestival.com/en/tickets"><button class="buy-tickets">TICKETS</button></a>
         </nav>
-        </nav>
     </header>
-    <!-- Hero section -->
-    <div class="hero">
-        <img src="Assets\Images\Sziget_aerial_hero.webp" alt="Hero Image" class="hero-image">
+         <!-- Hero section -->
+    <div class="hero" style="width: 100%; height: auto; padding: 0;">
+        <img src="Assets\Images\Sziget_aerial_hero.webp" alt="Hero Image" class="hero-image" style="width: 100%; height: auto;">
         <!-- <h1>Experience the Magic of Music</h1> -->
     </div>
-    <!-- Main content container -->
-    <div class="container">
         <!-- Festival description -->
         <section class="content" style="background-color: #e08765;">
             <p>Join us for the ultimate music festival experience in 2025! Set on the scenic Óbuda Island in Budapest, our festival offers an unparalleled mix of live performances, art installations, and cultural experiences. With an eclectic lineup spanning rock, pop, electronic, and world music, there's something for every music lover.</p>
@@ -69,69 +106,71 @@
         </section>
         <!-- Media section with video -->
         <section class="media-section" style="text-align: center; background-color: #7961a6;">
-            <h2>Festival Highlights</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ONGpx6KolK0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
+            <h2 style="color: #e6e88c;">Festival Highlights</h2>
+            <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; box-shadow: 0 0 0 #e6e88c;">
+            <iframe src="https://www.youtube.com/embed/ONGpx6KolK0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            </div>
         </section>
         <!-- Carousel section -->
         <section class="carousel" style="text-align: center; background-color: #213b3c;">
-            <h2 style="color: white;">Festival Highlights</h2>
+            <h2 style="color: #e6e88c;">Festival Highlights</h2>
             <div class="carousel-container">
-                <div class="carousel-card">
+                <div class="carousel-card" style="background-color: #e6e88c; border-color: transparent;">
                     <img src="Assets\Images\sziget24_day3_24.jpg" alt="Highlight 1">
-                    <h3>Live Performances</h3>
-                    <p>Highlight 1 Description</p>
+                    <h3 style="color: #213b3c;">Live Performances</h3>
+                    <p style="color: #213b3c;">Enjoy world-class artists and unforgettable music across multiple stages.</p>
                 </div>
-                <div class="carousel-card">
+                <div class="carousel-card" style="background-color: #e6e88c; border-color: transparent;">
                     <img src="Assets\Images\sziget24_day1_44.jpg" alt="Highlight 2">
-                    <h3>Cultural Immersion</h3>
-                    <p>Highlight 2 Description</p>
+                    <h3 style="color: #213b3c;">Cultural Immersion</h3>
+                    <p style="color: #213b3c;">Dive into art, workshops, and global cuisines in a celebration of diversity.</p>
                 </div>
-                <div class="carousel-card">
+                <div class="carousel-card" style="background-color: #e6e88c; border-color: transparent;">
                     <img src="Assets\Images\sziget24_day4_28.jpg" alt="Highlight 3">
-                    <h3>Outdoor Activities</h3>
-                    <p>Highlight 3 Description</p>
+                    <h3 style="color: #213b3c;">Outdoor Activities</h3>
+                    <p style="color: #213b3c;">Relax on Óbuda Island by the Danube, try yoga, or join exciting games and adventures in a stunning natural setting.</p>
                 </div>
             </div>
         </section>
         <!-- Call to action section -->
         <section class="cta-section" style="text-align: center; background-color: #f5dcdc;">
-            <h2>Don’t Miss Out! Early Bird Szitizens Get Up to 25% Off!</h2>
-            <p>Get your tickets now and be part of the magic at Sziget Festival 2025.</p>
+            <h2 style="color: #213b3c;">Don’t Miss Out! Early Bird Szitizens Get Up to 25% Off!</h2>
+            <p style="color: #111234;">Get your tickets now and be part of the magic at Sziget Festival 2025.</p>
             <button class="buy-tickets">Buy Tickets</button>
         </section>
         <!-- Newsletter subscription section -->
         <section class="newsletter-section" style="text-align: center; background-color: #c8a677;">
-            <h2>Stay Updated</h2>
-            <p>Subscribe to our newsletter for the latest updates and news about Sziget Festival 2025.</p>
+            <h2 style="color: #213b3c;">Stay Updated</h2>
+            <p style="color: #111234;">Subscribe to our newsletter for the latest updates and news about Sziget Festival 2025.</p>
             <form>
                 <input type="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
             </form>
         </section>
+        <!-- Footer section -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-links">
+                    <a href="#press">Press</a>
+                    <a href="#commercial-tenders">Commercial tenders</a>
+                    <a href="#sziget-crew">Sziget Crew</a>
+                    <a href="#policy-terms">Sziget festival policy & general terms</a>
+                    <a href="#sponsors">For sponsors</a>
+                    <a href="#contact">Contact us</a>
+                    <a href="#cookie-settings">Cookie settings</a>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/SzigetFestival" target="_blank"><img src="Assets\Images\Social Media Icons\facebook_icon.png" alt="Facebook" style="width: 24px; height: 24px; filter: invert(1);"></a>
+                    <a href="https://www.instagram.com/szigetofficial" target="_blank"><img src="Assets\Images\Social Media Icons\instagram_icon.png" alt="Instagram" style="width: 20px; height: 20px; filter: invert(1);"></a>
+                    <a href="https://www.youtube.com/user/szigetofficial" target="_blank"><img src="Assets\Images\Social Media Icons\youtube_icon.png" alt="YouTube" style="width: 20px; height: 20px; filter: invert(1);"></a>
+                    <a href="https://www.tiktok.com/@szigetofficial" target="_blank"><img src="Assets\Images\Social Media Icons\tiktok_icon.png" alt="TikTok" style="width: 20px; height: 20px; filter: invert(1);"></a>
+                    <a href="https://open.spotify.com/user/szigetfestivalofficial" target="_blank"><img src="Assets\Images\Social Media Icons\spotify_icon.png" alt="Spotify" style="width: 20px; height: 20px; filter: invert(1);"></a>
+                    <a href="https://szigetfestival.com/en/sziget-ewsletter"><img src="Assets\Images\Social Media Icons\email_icon.png" alt="Email" style="width: 20px; height: 20px; filter: invert(1);"></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Sziget Festival. All rights reserved.</p>
+        </footer>
     </div>
-    <!-- Footer section -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-links">
-                <a href="#press">Press</a>
-                <a href="#commercial-tenders">Commercial tenders</a>
-                <a href="#sziget-crew">Sziget Crew</a>
-                <a href="#policy-terms">Sziget festival policy & general terms</a>
-                <a href="#sponsors">For sponsors</a>
-                <a href="#contact">Contact us</a>
-                <a href="#cookie-settings">Cookie settings</a>
-            </div>
-            <div class="social-media">
-                <a href="https://www.facebook.com/SzigetFestival" target="_blank"><img src="Assets\Images\Social Media Icons\facebook_icon.png" alt="Facebook" style="width: 24px; height: 24px; filter: invert(1);"></a>
-                <a href="https://www.instagram.com/szigetofficial" target="_blank"><img src="Assets\Images\Social Media Icons\instagram_icon.png" alt="Instagram" style="width: 20px; height: 20px; filter: invert(1);"></a>
-                <a href="https://www.youtube.com/user/szigetofficial" target="_blank"><img src="Assets\Images\Social Media Icons\youtube_icon.png" alt="YouTube" style="width: 20px; height: 20px; filter: invert(1);"></a>
-                <a href="https://www.tiktok.com/@szigetofficial" target="_blank"><img src="\AssetsImages\Social Media Icons\tiktok_icon.png" alt="TikTok" style="width: 20px; height: 20px; filter: invert(1);"></a>
-                <a href="https://open.spotify.com/user/szigetfestivalofficial" target="_blank"><img src="Assets\Images\Social Media Icons\spotify_icon.png" alt="Spotify" style="width: 20px; height: 20px; filter: invert(1);"></a>
-                <a href="https://szigetfestival.com/en/sziget-ewsletter"><img src="Assets\Images\Social Media Icons\email_icon.png" alt="Email" style="width: 20px; height: 20px; filter: invert(1);"></a>
-            </div>
-        </div>
-        <p>&copy; 2025 Sziget Festival. All rights reserved.</p>
-    </footer>
     <!-- JavaScript for sticky navbar -->
     <script src="sziget.js"></script>
 </body>
