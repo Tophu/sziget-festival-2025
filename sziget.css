@@ -107,6 +107,37 @@ header.dark-mode {
     box-shadow: 6px 6px 0 rgba(33, 59, 60, 1); /* Increase shadow on hover */
 }
 
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.nav-links.mobile {
+    display: none;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #213b3c;
+    padding: 10px 0;
+}
+.nav-links.mobile a {
+    padding: 10px 20px;
+}
+.nav-links.mobile.show {
+    display: flex;
+}
+
 /* Container styles */
 .container {
     flex: 1;
@@ -122,7 +153,7 @@ header.dark-mode {
 /* Hero section styles */
 .hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px; /* Same padding as other sections */
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: #fff;
     height: 400px;
@@ -132,7 +163,7 @@ header.dark-mode {
     justify-content: center;
     max-width: 1200px; /* Same width as the container */
     margin: 0 auto; /* Center the hero section */
-    margin-top: 80px; /* Same margin as the container */
+    margin-top: 90px; /* Same margin as the container */
 }
 .hero .hero-image {
     width: 100%; /* Scale the image to the full width of the section */
@@ -252,8 +283,8 @@ header.dark-mode {
     margin-top: 2rem;
     text-align: center;
     padding: 20px; /* Add padding inside the newsletter section */
-    padding-bottom: 30px; /* Further increase padding to the bottom */
-    margin-bottom: 10px; /* Add space between the bottom of the newsletter and the top of the footer */
+    padding-bottom: 20px; /* Further increase padding to the bottom */
+    margin-bottom: 2rem; /* Add space between the bottom of the newsletter and the top of the footer */
 }
 .newsletter-section h2 {
     margin-bottom: 1rem;
@@ -289,9 +320,9 @@ footer {
     padding: 1em 0;
     background-color: #111234;
     color: #fff;
-    width: 100%;
     padding-top: 30px; /* Add top padding */
-    margin-top: 0px; /* Add space above the footer */
+    margin-bottom: 0; /* Ensure the footer reaches the bottom */
+    border-bottom: none; /* Remove any border at the bottom */
 }
 footer.dark-mode {
     background-color: #444;
@@ -323,8 +354,10 @@ footer.dark-mode {
 /* Responsive styles */
 @media (max-width: 768px) {
     .nav-links {
-        flex-direction: column;
-        gap: 10px;
+        display: none;
+    }
+    .hamburger {
+        display: flex;
     }
     .hero {
         padding: 30px 10px;
@@ -342,16 +375,38 @@ footer.dark-mode {
     .carousel-card {
         width: 150px;
     }
+    footer {
+        padding: 1em 10px;
+        max-width: 100%; /* Ensure the footer is responsive */
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
     .hero {
-        height: 200px;
+        height: auto;
     }
     .hero h1 {
         font-size: 1.5rem;
     }
     .content p {
         font-size: 0.8rem;
+    }
+    footer {
+        padding: 1em 5px;
+        max-width: 100%; /* Ensure the footer is responsive */
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-media {
+        justify-content: center;
     }
 }
